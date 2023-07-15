@@ -1,0 +1,447 @@
+/* efectos por defecto */
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #1b262c;
+    
+    margin: 0;
+    background-color: #ffffff;
+}
+
+/* efectos para el contenedor de pantalla completa */
+#contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    
+    background-image: url(../imagenes/fondo_difuminado_login.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#contenedorcentra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    
+    min-width: 380px;
+    max-width: 900px;
+    width: 90%;
+    
+    background-color: #858585;
+    
+    /*opacity: 0.50;
+    filter: alpha(opacity=50);*/
+    
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* contenedor del login a la izquierda */
+#contenedorcentrado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    
+    min-width: 380px;
+    max-width: 900px;
+    width: 90%;
+    
+    background-color: #25b994;
+    
+    /*opacity: 0.50;
+    filter: alpha(opacity=50);*/
+    
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* formulario de login */
+/* formulario de login */
+#login {
+    width: 100%;
+    max-width: 360px;
+    min-width: 360px;
+    padding: 30px 30px 50px 30px;
+    background-color: #000000;
+    
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    box-sizing: border-box;
+    
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+.div.login{
+    border-radius: 50px;
+}
+
+#login label {
+    display: block;
+    font-family: 'Overpass', sans-serif;
+    font-size: 120%;
+    color:#ffffff;
+    
+    margin-top: 15px;
+}
+
+#login input {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color: #1b262c;
+    
+    display: block;
+    width: 100%;
+    height: 40px;
+    
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+    
+    box-sizing: border-box;
+    
+    border: none;
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+}
+
+#login input::placeholder {
+    font-family: 'Overpass', sans-serif;
+    color: #E4E4E4;
+}
+
+#login button {
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    
+    background-color: #00e29a;
+    
+    margin-top: 10px;
+}
+
+#ini{
+    font-family: 'Overpass', sans-serif;
+    font-size: 110%;
+    color:#1b262c;
+    width: 100%;
+    height: 40px;
+    border: none;  
+}
+
+#login button:hover {
+    background-color: #ffffff;
+    color:#030303;
+}
+/* formulario de login */
+/* formulario de login */
+
+/* seccion de la derecha */
+/* seccion de la derecha */
+/* por defecto */
+#derecho {
+    /*display: flex;
+    align-items:center;
+    justify-content:center;*/
+    
+    text-align: center;
+    width: 100%;
+    
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    
+    padding:20px 20px 20px 50px;
+    box-sizing: border-box;
+}
+
+.titulo {
+    font-size: 300%;
+    color:#000000;
+}
+
+.logo-empresa img {
+    width: 60%;
+}
+
+hr {
+    border-top: 1px solid #000000;
+	border-bottom: 1px solid #ffffff;
+    
+}
+.pie-form {
+    font-size: 90%;
+    text-align: center;    
+    margin-top: 15px;
+}
+
+.pie-form a {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.pie-form a:hover {
+    color: #ffffff;
+}
+/* seccion de la derecha */
+/* seccion de la derecha */
+
+/* ajustar a pantallas con ancho menor o igual a 775px; */
+/* ajustar a pantallas con ancho menor o igual a 775px; */
+@media all and (max-width: 775px)
+{
+    #contenedorcentrado {
+        flex-direction:column-reverse;
+
+        min-width: 380px;
+        max-width: 900px;
+        width: 90%;
+
+        background-color: #24b893;
+
+        /*opacity: 0.50;
+        filter: alpha(opacity=50);*/
+
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+
+        -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+        -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+        box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    
+    #login {
+        margin: 0 auto;
+    }
+    
+    #derecho {
+        padding:20px 20px 20px 20px;
+    }
+    
+    #login label {
+        text-align: left;
+    }
+
+
+
+}
+/* ajustar a pantallas con ancho menor o igual a 775px; */
+/* ajustar a pantallas con ancho menor o igual a 775px; */
+
+/* barra de navegación */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #000000;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Roboto,"sans-serif";
+    font-size: 1.2rem;
+}
+
+.navbar ul li::before{
+    content:"";
+    height: 3px;
+    width: 0%;
+    background: #00e29a;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.4s ease-out;
+}
+
+.navbar ul li:hover::before{
+    width: 100%;
+}
+
+/* registro de los deportistas */
+.card-body {
+    width: 100%;
+    max-width: 680px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #25f14b;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-container .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .form-element {
+    flex-grow: 1;
+    flex-basis: calc(20% - 10px);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-element.textarea {
+    flex-basis: calc(60% - 10px);
+  }
+  
+  .form-element.number-input {
+    flex-basis: calc(40% - 10px);
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  input, select, textarea {
+    /*width: 100%;*/
+    /*padding: 5px 10px;*/
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  input[type=number] {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield;
+  }
+  
+  input[readonly] {
+    color: -internal-light-dark(graytext, rgb(170, 170, 170));
+    opacity: 0.7;
+    cursor: default;
+    outline: none;
+  }
+  
+  textarea {
+    height: 6em;
+    resize: none;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 0 10px;
+  }
+  
+  #CodigoGuarnicion .form-element:nth-child(1) {
+    flex-grow: 1;
+  }
+  
+  #CodigoGuarnicion .form-element:nth-child(2) {
+    flex-grow: 10;
+  }
+  
+  #CodigoGuarnicion .form-element:nth-child(2) input {
+    width: 59%;
+  }
+  
+  @media (max-width: 671px) {
+    #CodigoGuarnicion .form-element:nth-child(1) {
+      flex-grow: 1;
+    }
+  
+    #CodigoGuarnicion .form-element:nth-child(2) {
+      flex-grow: 1;
+    }
+  
+    #CodigoGuarnicion .form-element:nth-child(2) input {
+      width: auto;
+    }
+  }
+
+
